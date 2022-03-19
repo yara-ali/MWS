@@ -40,7 +40,7 @@ nav img{
 
 .nav-link ul li a{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 13px;
   font-weight: bold;
 }
@@ -110,7 +110,7 @@ nav .fa{
   }
   .nav-link{
     position: absolute;
-    background: rgb(96, 118, 119);
+    background: rgb(161, 93, 93);
     margin-top: auto;
     height: 100%;
     width: 200px;
