@@ -40,8 +40,9 @@ nav img{
 
 .nav-link ul li a{
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-size: 13px;
+  font-weight: bold;
 }
 
 .nav-link ul li a::after{
@@ -109,14 +110,16 @@ nav .fa{
   }
   .nav-link{
     position: absolute;
-    background: rgb(202, 62, 62);
-    height: 50vh;
+    background: rgb(96, 118, 119);
+    margin-top: auto;
+    height: 100%;
     width: 200px;
     top: 0;
     right: -200px;
     text-align: left;
     z-index: 2;
     transition: 1s;
+    text-align: center;
   }
   nav .fa{
     display: block;
