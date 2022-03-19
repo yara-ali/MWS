@@ -31,7 +31,6 @@ nav img{
   flex: 1;
   margin-top: -50px;
   text-align: right;
-
 }
 
 .nav-link ul li{
@@ -97,4 +96,37 @@ nav img{
   border: ipx solid rgb(202, 62, 62);
   background:rgb(202, 62, 62);
   transition: 1s;
+}
+
+.nav .fa{
+  display: none;
+}
+
+@media(max-width: 700px){
+  .text-box h1{
+    font-size: 20px;
+  }
+  .nav-link ul li{
+    display: block;
+  }
+  .nav-link{
+    position: absolute;
+    background: rgb(202, 62, 62);
+    height: 50vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+  .nav .fa{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-link ul{
+    padding: 30px;
+  }
 }
