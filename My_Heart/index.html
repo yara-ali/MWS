@@ -3,39 +3,55 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Heart</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5018903c1e.js" crossorigin="anonymous"></script>
   </head>
 <body>
   <header class="header">
-    <nav>
-      <a href="index.html"><img src="images/heart.png"></a>
-      <div class="nav-link" id="navLink">
-        <ul>
-          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">LOGIN</a></li>
-          <li><a href="#">SIGN UP</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/real_heart.png"> My Heart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Information</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Check your heart health</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <i class="fa fa-duotone fa-bars" onclick="showMenu()"></i>
     </nav>
-    <div class="text-box">
-      <h1>My Heart Health</h1>
-      <p>
-        yara_197968<br>
-        mahmoud_197907<br>
-        omar_abd_alazez_205673<br>
-        Mohammed_homam_al_takrity_188771<br>
-      </p>
-      <a href="" class="ask">Ask for HELP</a>
-    </div>
   </header>
+  <section class="hello">
+    <h1>Students</h1>
+    <p>
+      yara_197968<br>
+      mahmoud_197907<br>
+      omar_abd_alazez_205673<br>
+      Mohammed_homam_al_takrity_188771<br>
+    </p>
+    </div>
+  </section>
   <section class="info">
     <h1>Heart health information</h1>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -71,7 +87,7 @@
 
 
 
-
+  <script src="js/bootstrap.js"></script>
   <script src="js/script.js">
   </script>
 </body>
