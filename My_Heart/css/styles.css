@@ -6,6 +6,14 @@
 }
 
 /*----header----*/
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #4c5baf !important;
+}
+.bg-light{
+  background: #aaaaaa !important;
+}
 .navbar-brand img{
   width: 70px;
   height: 70px;
@@ -20,39 +28,41 @@
 
 /*----hello section----*/
 .hello{
-  background: ;
+  height: 80vh;
   width: 100%;
   margin: auto;
   text-align: center;
+  background: linear-gradient(rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url('../images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.hello .text-box{
+  display: inline-block;
+  margin-top: 10%;
 }
 .hello h1{
-  font-size: 36px;
-  font-weight: 600;
-}
-.hello p{
-  color: #777;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10px;
-}
-.hello-col{
-  text-align: center;
-  flex-basis: 100%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
+  color: #fff3f3;
+  font-size: 80px;
+  font-weight: bolder;
   transition: 0.5s;
 }
-.hello-col h3{
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
+.hello h1:hover{
+  color: #ff5858;
+  cursor: pointer;
+  font-size: 100px;
 }
-.hello-col:hover{
-  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.2);
+.hello p{
+  color: rgb(185, 185, 185);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 30px;
+  transition: 0.5s;
+}
+.hello p:hover{
+  color: #ff5858;
+  cursor: pointer;
+  font-size: 25px;
 }
 /*----end hello section----*/
 
