@@ -12,7 +12,7 @@
   background-color: rgba(255, 255, 255, 0.55);
 }
 .dropdown-menu{
-  background-color: rgb(116, 116, 116);
+  background-color: #fff3f3;
 }
 .navbar-brand{
   font-size: 25px;
@@ -157,7 +157,7 @@
 
 /*----Footer----*/
 .footer{
-  width: 88%;
+  width: 95%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
